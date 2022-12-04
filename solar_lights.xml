@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/george/Documents/Code/solar_lights/solar_lights.kicad_sch</source>
+    <date>Tue 22 Nov 2022 08:41:15 PM EST</date>
+    <tool>Eeschema 6.0.8-f2edbf62ab~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>solar_lights.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B+1">
+      <value>Batt+</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6be0a67-1876-441d-9d1a-53a33eee3e8b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be5577e0-eef6-4097-821d-e5e386541505</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfcefabd-7791-4725-aed5-2a0e4b2eb4b8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07f0830f-6d62-47d3-8fee-621f9f178fc3</tstamps>
+    </comp>
+    <comp ref="GND1">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95577a41-c5de-46b8-b2b1-d879852c1ddf</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36133bd3-c4fc-4280-89a4-3d5c58ef034e</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cdf8b4c-674e-4d94-bf0b-7869c7b90ba4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>S+</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aefc31e1-69a6-4693-a45b-6efa23fb762d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>S-</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4b20d56-b0a9-4cf1-80cf-23acf4b12bfc</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>LED+</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d9ab2b5-d292-405d-811e-94ae17688227</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>LED-</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df41029c-8282-4915-9454-b30c34f33d5f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>LED+</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94c3afc5-21b7-4eda-b7fe-561e8294b8bb</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>LED-</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbc27a99-3536-4005-8320-5187bf320a07</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>S+</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e627ca3a-964b-4233-a15f-657719af16d0</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>S-</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_TopBottom</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbac0586-16c9-4384-9df2-7564bf8b1e72</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7u</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e599459-5c66-4a2f-85a0-4ee5a67bd929</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN2058U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/DMN2058U.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMN2058U" description="4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f52b6d0e-7367-431e-a56b-44a47d079809</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e2f5774-c92e-4cd1-b393-9da5eee797b7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>524fd289-3bd3-4605-ab88-1a13c6d9ade9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba5f2425-fa11-49f3-888d-43abe5938eda</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>20</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd68c62a-3a1f-4fb1-8044-7629cfe6b4d8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>000</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0f7cf47-3d4e-411e-97c0-6da53fc3c08a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_DPDT</value>
+      <footprint>AERO_Footprints:SW_DPDT_6POS</footprint>
+      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5f78489-a112-4ce6-b01f-ea8946b476f8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1642</value>
+      <footprint>Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias</footprint>
+      <libsource lib="AERO_Symbols" part="MCP1642" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: solar_lights.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90d2a734-b11a-4ad2-9c40-89c53ff81e27</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AERO_Symbols" part="MCP1642">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1642</field>
+        <field name="Footprint">Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="PG" type="input"/>
+        <pin num="4" name="Vout" type="input"/>
+        <pin num="5" name="SW" type="input"/>
+        <pin num="6" name="PGND" type="input"/>
+        <pin num="7" name="SGND" type="input"/>
+        <pin num="8" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_DPDT">
+      <description>Momentary Switch, dual pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_DPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMN2058U">
+      <description>4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/DMN2058U.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMN2058U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/DMN2058U.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AERO_Symbols">
+      <uri>/home/george/Documents/GitHub/AERO/AERO_KiCAD_Library/AERO_custom_symbols.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/B+">
+      <node ref="B+1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/LED+">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/S+">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="GND1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PGND" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="SGND" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="Vin" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="Vout" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(SW1-Pad4)">
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(SW1-Pad5)">
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(SW1-Pad6)">
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PG" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

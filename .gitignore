@@ -1,0 +1,4 @@
+# Ignore these types of files
+
+# Don't keep the bakcups folder
+solar_lights-backups/*
